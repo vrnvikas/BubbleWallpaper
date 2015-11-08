@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Bubble Wallpaper Preferences">
+    <PreferenceCategory
+        android:order="1"
+        android:title="Interaction">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isInteractive"
+            android:title="Enable Interaction" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:order="2"
+        android:title="Bubble Settings">
+        <EditTextPreference
+            android:defaultValue="0.03"
+            android:key="bubbleFrequency"
+            android:numeric="decimal"
+            android:title="Number of Bubbles" />
+    </PreferenceCategory>
+</PreferenceScreen>
