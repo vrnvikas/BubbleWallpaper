@@ -40,6 +40,10 @@ class BubblesView extends SurfaceView implements SurfaceHolder.Callback {
         startAnimation();
     }
 
+    public void setFrequency(float bubbleFrequency) {
+        BUBBLE_FREQUENCY = bubbleFrequency;
+    }
+
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
 

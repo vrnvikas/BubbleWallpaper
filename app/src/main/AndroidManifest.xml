@@ -21,6 +21,12 @@
             android:resource="@xml/wallpaper" />
     </service>
 
+        <activity
+            android:label="@string/app_prefs"
+            android:name=".BubbleSetting"
+            android:exported="true">
+        </activity>
+
 
 </application>
 
